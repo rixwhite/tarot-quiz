@@ -1,0 +1,79 @@
+Num | Name | Abrv | Group | QoW Meaning | ascii
+0 | The Fool | 0 | Major | new beginning, start of a cycle, jumping into something new, naivete | 00
+1 | The Magician | I | Major | making it real, making it happen, linking thought and reality | 01
+2 | The High Priestess | II | Major | intuition, hidden knowledge, female spirituality | 02
+3 | The Empress | III | Major | fertility, abundance, motherhood, the mother | 03
+4 | The Emperor | IV | Major | authority, control, rules, the father | 04
+5 | The Hierophant | V | Major | spiritual leader, conservative rules, leading others | 05
+6 | The Lovers | VI | Major | passion, intimacy, connection, choices | 06
+7 | The Chariot | VII | Major | fast action, driving at something, success | 07
+8 | Strength | VIII | Major | inner strength, balance between ego and emotions | 08
+9 | The Hermit | IX | Major | withdrawal, seeking answers, being alone | 09
+10 | Wheel of Fortune | X | Major | change, luck, karma | 10
+11 | Justice | XI | Major | fairness, legal issues, balancing the karmic scales | 11
+12 | The Hanged Man | XII | Major | forced rest, sacrifice, slowdown | 12
+13 | Death | XIII | Major | full stop, transformation | 13
+14 | Temperance | XIV | Major | healing, balance, measured action | 14
+15 | The Devil | XV | Major | temptation, devil on your shoulder | 15
+16 | The Tower | XVI | Major | breakdown, destruction | 16
+17 | The Star | XVII | Major | hope, optimism, happiness, health | 17
+18 | The Moon | XVIII | Major | gossip, hidden enemies, cyclic issues, unknown | 18
+19 | The Sun | XIX | Major | joy, happiness, good things | 19
+20 | Judgement | XX | Major | rebirth, end of a cycle, completion | 20
+21 | The World | XXI | Major | expansion, travel, freedom | 21
+22 | Ace of Wands | A/W | Minor | new job, creative beginning | wa01
+23 | 2 of Wands | 2/W | Minor | planning, next steps | wa02
+24 | 3 of Wands | 3/W | Minor | opportunity, travel | wa03
+25 | 4 of Wands | 4/W | Minor | stability, marriage | wa04
+26 | 5 of Wands | 5/W | Minor | competition, discord | wa05
+27 | 6 of Wands | 6/W | Minor | success, overachieving | wa06
+28 | 7 of Wands | 7/W | Minor | courage, defense, bravery | wa07
+29 | 8 of Wands | 8/W | Minor | news, swiftness, quick action, signals | wa08
+30 | 9 of Wands | 9/W | Minor | boundaries, discipline | wa09
+31 | 10 of Wands | 10/W | Minor | burden, oppression, hard work | wa10
+32 | Page of Wands | Pa/W | Court | good news, young idea maker, new ideas | wapa
+33 | Knight of Wands | Kn/W | Court | go-getter | wakn
+34 | Queen of Wands | Qu/W | Court | creative woman, intuitive woman | waqu
+35 | King of Wands | Ki/W | Court | powerful man, entrepreneur | waki
+36 | Ace of Cups | A/C | Minor | new love, pure love, compassion | cu01
+37 | 2 of Cups | 2/C | Minor | romance, meeting, intimacy | cu02
+38 | 3 of Cups | 3/C | Minor | celebration, fun, friends | cu03
+39 | 4 of Cups | 4/C | Minor | apathy, re-evaluation, self-involvement | cu04
+40 | 5 of Cups | 5/C | Minor | sorrow, disappointment, loss | cu05
+41 | 6 of Cups | 6/C | Minor | childhood, joy, giving, memories | cu06
+42 | 7 of Cups | 7/C | Minor | fantasies, illusions, ideas | cu07
+43 | 8 of Cups | 8/C | Minor | sacrifice, moving on, leaving behind what doesn't work | cu08
+44 | 9 of Cups | 9/C | Minor | wishes, smugness, happy attainment | cu09
+45 | 10 of Cups | 10/C | Minor | family harmony, balanced relationship | cu10
+46 | Page of Cups | Pa/C | Court | romantic news, message about relationship, new love | cupa
+47 | Knight of Cups | Kn/C | Court | Don Juan, don juan, sensitive young man | cukn
+48 | Queen of Cups | Qu/C | Court | compassionate woman, spiritual woman | cuqu
+49 | King of Cups | Ki/C | Court | compassionate man, caring man, emotionally available man, thoughtful man | cuki
+50 | Ace of Swords | A/S | Minor | force, awkward conversation, maintaining boundaries | sw01
+51 | 2 of Swords | 2/S | Minor | indecision, blind to the truth | sw02
+52 | 3 of Swords | 3/S | Minor | heartbreak, sadness | sw03
+53 | 4 of Swords | 4/S | Minor | rest, contemplation, slowness | sw04
+54 | 5 of Swords | 5/S | Minor | victory through deceit | sw05
+55 | 6 of Swords | 6/S | Minor | passage, moving on | sw06
+56 | 7 of Swords | 7/S | Minor | thievery, dishonesty | sw07
+57 | 8 of Swords | 8/S | Minor | self imprisonment, anxiety | sw08
+58 | 9 of Swords | 9/S | Minor | nightmare, nightmares, anxiety, insomnia | sw09
+59 | 10 of Swords | 10/S | Minor | betrayal, finished | sw10
+60 | Page of Swords | Pa/S | Court | legal news, strong-minded youth, opinionated | swpa
+61 | Knight of Swords | Kn/S | Court | challenging man, charging in | swkn
+62 | Queen of Swords | Qu/S | Court | career woman, intelligent woman, intellectual woman, sarcastic woman, funny woman | swqu
+63 | King of Swords | Ki/S | Court | logical man, intellectual man, intelligent man, lawyer, engineer, cold man | swki
+64 | Ace of Pentacles | A/P | Minor | money, reward, medicine, resources | pe01
+65 | 2 of Pentacles | 2/P | Minor | controlled chaos, movement, travel, change | pe02
+66 | 3 of Pentacles | 3/P | Minor | teamwork | pe03
+67 | 4 of Pentacles | 4/P | Minor | miserly, greedy, frugal | pe04
+68 | 5 of Pentacles | 5/P | Minor | scarcity | pe05
+69 | 6 of Pentacles | 6/P | Minor | generosity, giving, throw money at the problem | pe06
+70 | 7 of Pentacles | 7/P | Minor | investment, reflection, frustration | pe07
+71 | 8 of Pentacles | 8/P | Minor | rewarding work, lost in a task, flow | pe08
+72 | 9 of Pentacles | 9/P | Minor | financial security, abundance, reap what you sow | pe09
+73 | 10 of Pentacles | 10/P | Minor | financial success, family, protection, home | pe10
+74 | Page of Pentacles | Pa/P | Court | financial news, good student | pepa
+75 | Knight of Pentacles | Kn/P | Court | stable young man, dependable young man | pekn
+76 | Queen of Pentacles | Qu/P | Court | grounded woman, earthy woman, woman of the home | pequ
+77 | King of Pentacles | Ki/P | Court | successful man, secure man | peki

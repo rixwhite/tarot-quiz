@@ -1,4 +1,5 @@
 import random
+import sys
 
 
 def main():
@@ -80,7 +81,7 @@ def quiz_method(option):
     elif option == 5:
         partialDeck = get_deck(["Minor", "Court"])
     elif option == 6:
-        raise Exception("End Program")
+        sys.exit()
     return partialDeck
 
 

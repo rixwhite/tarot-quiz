@@ -2,7 +2,7 @@
 A quiz on the meanings of tarot cards
 
 # attribution
-* card meanings come from Jenna Matlin, aka [Queen of Wands Tarot](https://www.queenofwandstarot.net/)
+* card meanings come from [Jenna Matlin], (https://www.jennamatlin.com)
 
 # description
 * From the main menu, chose what part of the deck you would like to be quizzed on

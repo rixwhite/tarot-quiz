@@ -1,5 +1,6 @@
 import random
 
+
 def main():
     # Start the journey with a choice
     selection = main_menu()
@@ -11,7 +12,7 @@ def main():
     # Now shuffle the deck
     random.shuffle(deck)
 
-    # Star the quiz
+    # Start the quiz
     score = 0
     for card in deck:
         # We'll get a one or zero back from the quiz function.
@@ -24,6 +25,7 @@ def main():
 
     # Grade their quiz
     summary(score, questions, rate)
+
 
 def summary(score, questions, rate):
     """
@@ -40,6 +42,7 @@ def summary(score, questions, rate):
         print("Thanks for practicing!\nGood bye!")
         exit()
 
+
 def main_menu():
     """
         Main menu
@@ -50,7 +53,7 @@ def main_menu():
     menuOptions = ("Full deck", "Major Arcana", "Minor Aracana", "Court Cards"
                   ,"Minor Arcana and Court Cards", "Exit the game")
     for ordinal, option in enumerate(menuOptions, start=1):
-        print("{0}{1}) {2}".format(' ' * 4, ordinal, option))
+        print(f"    {ordinal}) {option}")
 
     waiting = True
     while waiting:
@@ -60,6 +63,7 @@ def main_menu():
         else:
             print("Choose an option by number.")
     return int(selection)
+
 
 def quiz_method(option):
     """
@@ -76,14 +80,16 @@ def quiz_method(option):
     elif option == 5:
         partialDeck = get_deck(["Minor", "Court"])
     elif option == 6:
-        exit()
+        raise Exception("End Program")
     return partialDeck
+
 
 def header(message):
     """ stars / message / stars """
     print('*' * 70)
     print("{0:^70}".format(message))
     print('*' * 70)
+
 
 def quiz(card):
     """
@@ -107,6 +113,7 @@ def quiz(card):
             score = 0
             waiting = False
     return score
+
 
 def valid_input(inputMessage, inputType):
     """
@@ -150,6 +157,7 @@ def valid_input(inputMessage, inputType):
             break
     return output
 
+
 def get_deck(section):
     """
         Buld the deck based on the user's choice
@@ -164,6 +172,7 @@ def get_deck(section):
                         cardList[5], list(cardList[4].split(", "))]
                 deck.append(card)
     return deck
+
 
 # Now that the header function has been read in, let's use it before we call
 # main so that we can print something out before we get into the loop.

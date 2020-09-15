@@ -98,19 +98,19 @@ def quiz(card):
         Tell them their card. Get their response. Score accordingly.
         There are also options for getting help and exiting the quiz.
     """
-    print("Your card is #{0}: {1}.".format(card[0], card[1]))
+    print(f"Your card is #{card[0]}: {card[1]}.")
     waiting = True
     while waiting:
         answer = input("What is its meaning? ")
-        if answer.strip() == "exit":
+        if answer.strip().lower() == "exit":
             score = 0
             main()
         elif answer.strip() in card[-1]:
-            print("Correct! {0} means {1}.".format(card[1], ", ".join(card[-1])))
+            print(f"Correct! {card[1]} means '{', '.join(card[-1])}'.")
             score = 1
             waiting = False
         else:
-            print("Inorrect! {0} means {1}.".format(card[1], ", ".join(card[-1])))
+            print(f"Incorrect! {card[1]} means '{', '.join(card[-1])}'.")
             score = 0
             waiting = False
     return score
